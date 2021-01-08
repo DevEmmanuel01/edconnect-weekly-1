@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Project</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <!-- Header section-->
+ <header>
+       
+    <!--left navigation-->
+    <div class="left-nav">
+         <div>
+             <a href="index.html"<h3 class="justh3">Project Explorer</h3> </a>
+         </div>
+
+         <form>
+             <input type="text" placeholder="Search Projects" />
+             <input type="submit" value="Search" />
+         </form>
+         <!-- div for links-->
+            <div>
+                <a href="search.html">Projects</a>
+                <a href="createProject.html">Submit</a>
+            </div>  <!-- Ending nav for right-nav links-->     
+
+    </div>
+<!--==============================================-->
+    <!-- right navigation -->
+    <div class="right-nav" >
+        <a href="register.html">Sign up</a>
+        <a href="login.html">Login</a>
+    </div>
+
+ </header>  <!--Finish here -->
+
+        <main >
+             <div class="container6">
+
+                <form action="#" class="formContainer">
+                    <h2>Submit Project</h2>
+                    <label for="name">Project Name</label><br>
+                    <input type="text" placeholder="Enter Project Name" name="name"> <br><br>
+
+                    <label for="abstract">Project Abstract</label><br>
+                    <textarea name="abstract"></textarea><br><br>
+
+                    <label for="author">Author(s)</label><br>
+                    <input type="text" placeholder="Enter authors name (seperated by comma)" name="author"><br><br>
+
+                    <label for="tag">Tag(s)</label><br>
+                   <input type="text" placeholder="Use # to tag project with different topics (e.g. #javascript #mangodb)"
+                    name="tag"><br><br>
+
+                    <input type="submit" value="Continue" class="button1">
+                </form>
+
+            </div>
+            
+        </main>
+
+        <!-- footer section -->
+     <footer>
+        <span>Project Explorer &copy; 2020</span>
+        <span class="spacer">&middot;</span>
+        <a href="#">Edconnect</a>
+ </footer>
+</body>
+</html>

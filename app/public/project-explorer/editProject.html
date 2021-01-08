@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Project</title>
+    
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- Header section-->
+    <header>
+       
+        <!--left navigation-->
+        <div class="left-nav">
+             <div>
+                 <a href="index.html"<h3 class="justh3">Project Explorer</h3> </a>
+             </div>
+
+             <form>
+                 <input type="text" placeholder="Search Projects" />
+                 <input type="submit" value="Search" />
+             </form>
+             <!-- div for links-->
+                <div>
+                    <a href="search.html">Projects</a>
+                    <a href="createProject.html">Submit</a>
+                </div>  <!-- Ending nav for right-nav links-->     
+
+        </div>
+<!--==============================================-->
+        <!-- right navigation -->
+        <div class="right-nav" >
+            <a href="register.html">Sign up</a>
+            <a href="login.html">Login</a>
+        </div>
+
+     </header>  <!--Finish here -->
+
+     <!-- main body section-->
+        <main>
+            <!--Begin of upper part -->
+            <section>
+                <h2 class="container12">Project 4</h2>
+
+                <div class="container8">
+                    <div class="profile">
+                        <p>Created By <br>Ade Ade</p>
+                    </div>
+
+                    <div class="profile">
+                        <p>Date Created <br> 2020-03-03</p>
+                    </div>
+                    <div class="profile">
+                        <p>Last Updated<br>2020-04-04</p>
+                    </div>
+
+                    <input type="submit" value="View Project"  class="button4">
+
+                </div>
+
+            </section>
+   <!-- End of upper part -->
+
+            <section class="container9">
+
+                <div class="editproject">
+                    <h3>Edit Project</h3>
+                    <hr class="new1">
+
+                    <form>
+                        <label for="name">Project Name</label><br>
+                        <input type="text" name="name" placeholder="Project 4"><br><br>
+
+                        <label for="abstract">Project Abstract</label><br>
+                        <textarea name="abstract">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque laboriosam molestiae expedita explicabo dolorum dolorem nemo itaque ducimus excepturi sed, libero necessitatibus, tempore et fuga quasi odio facilis laborum officiis veniam doloribus voluptatibus eum aspernatur id ea. Inventore, odit error! Tempore doloremque illo est voluptates harum temporibus fugit debitis commodi sint saepe dolores inventore explicabo quia soluta cumque atque, ratione molestiae minus sunt quaerat! Libero odit eius tempore, molestiae quia quasi repudiandae et ullam sequi, velit esse at dolore impedit placeat, culpa nobis! Numquam provident similique, minima suscipit molestiae iste cum eaque cumque quia explicabo, sapiente praesentium! Atque, sapiente assumenda! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        </textarea>
+                        <br><br>
+
+                        <label for="author">Author(s)</label><br>
+                        <input type="text" placeholder="Ade Ade, Brian James" name="author" > <br><br>
+
+                        
+                        <label for="tag">Tag(s)</label><br>
+                        <input type="text" placeholder="#Javascript, #MongoDB" name="tag"><br><br>
+
+                        <input type="submit" value="Save"
+                        class="button1">
+                    </form>
+                </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="editproject">
+                    <h3>Manage Project Files</h3>
+                    <hr class="new1">
+                    Click to open file browser
+                    <input type="file" name="projectFile" value="Browse">
+                    <hr class="new1">
+
+                    <div class="fileDisplay">
+                        <table>
+                            <tr class="tableRow">
+                                <th>
+                                    <h3>Project Files</h3>
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <p>No file uploaded yet</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+         
+        <!-- footer section -->
+     <footer>
+        <span>Project Explorer &copy; 2020</span>
+        <span class="spacer">&middot;</span>
+        <a href="#">Edconnect</a>
+ </footer>
+
+</body>
+</html>

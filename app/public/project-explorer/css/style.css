@@ -1,0 +1,378 @@
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Dealing with header styling */
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #007bff;
+    color: #fff;
+}
+
+header .left-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 15px;
+}
+
+header .right-nav {
+    padding: 15px;
+}
+
+.justh3 {
+    font-size: 1.2em;
+    padding-right: 10px;
+}
+
+header form input[type=text] {
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header form input[type=submit] {
+    background-color: #007bff;
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+header a {
+    color: #fff;
+    padding-left: 10px;
+    opacity: 0.5;
+
+}
+
+header a:hover {
+    opacity: 1;
+}
+/* ===---===-=-->>>><<<<< */
+
+.button1 {
+    color: white;
+    background-color: rgb(60, 92, 235);
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+}
+
+.button2 {
+    color:white;
+    background-color: grey;
+    border-radius:5px;
+    padding:8px;
+    border:none;
+}
+
+.button4 {
+    color: white;
+    background-color: rgb(60, 92, 235);
+    border-radius: 5px;
+    border: none;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto 30px auto;
+}
+/* container 31 */
+.container31{
+    display:flex;
+    max-width: 600px;
+    margin:0px auto 0px auto;
+    justify-content: space-between;
+}
+
+.container31 input[type="password"]{
+    width:200px;
+    height:20px;
+}
+
+
+/*_ conatiner 3 and its properties */
+
+.container3{
+    display:flex;
+    max-width: 600px;
+    margin:0px auto 0px auto;
+    justify-content: space-between;
+}
+
+.container3 input[type="text"]{
+    width:300px;
+    height:20px;
+}
+
+.container3 input[type="email"]{
+    width:300px;
+    height:20px;
+}
+
+.container3 input[type="password"]{
+    width:300px;
+    height:20px;
+}
+
+.container3 select{
+    width:310px;
+    height:26px;
+}
+/* ends here */
+
+.container4 {
+    padding: 2px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    flex-basis: 20%;
+}
+/* container 41 and its properties */
+.container41{
+    padding:2px;
+    box-sizing: border-box;
+    flex-basis:20%;
+}
+
+.container41 input[type="text"]{
+    width:150px;
+    height:20px;
+
+}
+
+.container41 select{
+    width:150px;
+    height:26px;
+
+}
+
+/* end of container 4 */
+.container5{
+    background-color: rgba(0, 0, 0, 0.089);
+    padding:20px 10px 10px 10px;
+    margin:10px auto 20px auto;
+    max-width: 1000px;
+}
+ 
+
+.container6 {
+    display: block;
+    text-align: center;
+}
+
+.container7 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.089);
+    margin: 20px 80px 0px 80px;
+}
+
+.container71 {
+    margin: 20px 80px 0px 80px;
+}
+
+.container8 {
+   display: flex;
+   justify-content: space-between;
+   background-color: rgba(0, 0, 0, 0.089);
+   max-width: 1100px;
+   margin: 10px auto 0 auto;
+}
+
+.container9{
+    max-width: 1100px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container10 {
+    margin: 20px 80px 0px 80px;
+}
+
+.container11{
+    margin: 40px auto 0 auto;
+    max-width: 1000px;
+}
+.container12 {
+    width: 1100px;
+    margin: 30px auto auto auto;
+}
+.container13{
+    width: 950px;
+    margin: 10px auto auto auto;
+}
+
+/* >>>>>>> editing project stylinging */
+
+.editproject {
+    flex: 1;
+}
+
+.editproject input[type="text"] {
+    width: 500px;
+    height: 20px;
+}
+
+.editproject textarea{
+    width:500px;
+    height:200px;
+}
+
+.editproject hr{
+    width:100%;
+}
+
+.editcomment textarea{
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+hr.new1 {
+    border-top: 0px solid gray;
+  }
+/* ending of editproject style */
+
+.fileDisplay table {
+    border: 1px solid #dddddd;
+    text-align: left;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.fileDisplay td {
+    text-align: center;
+}
+
+.align {
+    text-align: start;
+}
+
+/* table row */
+.tableRow {
+    background-color: rgba(0, 0, 0, 0.089);
+}
+
+
+.formContainer {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+/* putting properties into input types */
+
+.formContainer input[type="text"]{
+    width:500px;
+    height:20px;
+}
+
+.formContainer input[type="email"]{
+   width: 500px;
+   height: 20px;
+}
+
+.formContainer input[type="password"] {
+   width: 500px;
+   height: 20px;
+
+}
+
+.formContainer textarea{
+    width:500px;
+    height:250px;
+}
+
+.formContainer select{
+    width:510px;
+    height:25px;
+}
+
+/* will fortunatly end here */
+
+/* ####### SEARCH INPUT */
+.searchInput{
+    width:750px;
+    height:20px;
+}
+
+.searchDropBox{
+    width:100px;
+    height:25px;
+}
+
+/* it end here */
+
+.profile{
+    flex: 1;
+}
+.Intro{
+    background-color: rgba(0, 0, 0, 0.089);
+    padding:40px 20px 70px 20px;
+}
+ 
+.title{
+    color:blue;
+}
+/* Project Info and Styling */
+.Project-Info{
+    max-width: 900px;
+    margin: 10px auto 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project{
+    padding: 0px 20px 20px 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    flex-basis: 23%;
+    border:solid;
+    /* border-width: medium medium medium medium; */
+    border-color: rgba(0, 0, 0, 0.062);
+}
+.Project-Info a{
+    text-decoration: none;
+}
+.Project-Info  a {
+    color: blue;
+    padding-left: 10px;
+    opacity: 0.3;
+
+}
+
+.Project-Info a:hover {
+    opacity: 1;
+}
+ /* End here */
+
+/* dont touch please */
+/* moving to footer */
+footer {
+    margin-top: 10px;
+    width: 950px;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end; 
+   color: #6c757d;
+   background-color: #f1f2f3;
+    padding: 10px;
+}
+
+footer .spacer {
+    padding: 0 5px 0 5px;
+}
