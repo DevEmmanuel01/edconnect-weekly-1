@@ -5,67 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>
 
 <body>
-    <!-- Header begins here -->
-    <header>
-       
-        <!--left navigation-->
-        <div class="left-nav">
-             <div>
-                 <a href="index.html"<h3 class="justh3">Project Explorer</h3> </a>
-             </div>
+<!-- Header section-->
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
 
-             <form>
-                 <input type="text" placeholder="Search Projects" />
-                 <input type="submit" value="Search" />
-             </form>
-             <!-- div for links-->
-                <div>
-                    <a href="search.html">Projects</a>
-                    <a href="createProject.html">Submit</a>
-                </div>  <!-- Ending nav for right-nav links-->     
+    <a class="navbar-brand" href="#">Project Explorer</a>
 
-        </div>
-<!--==============================================-->
-        <!-- right navigation -->
-        <div class="right-nav" >
-            <a href="register.html">Sign up</a>
-            <a href="login.html">Login</a>
-        </div>
+    <form class="form-inline my-2 my-lg-0" name="prp">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search projects" value="Search Projects" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+    </form>
 
-     </header>  <!--Finish here -->
+    <ul class="navbar-nav">
 
-    <main>
+        <li class="nav-item">
+            <a href="search.html" class="nav-link">Project</a>
+        </li>
 
-        <div class="container6">
-            <form class="formContainer">
-                <h2>Login</h2>
-                <div class="row">
-                    <label for="email"><b>Email Address</b></label><br>
-                    <input type="email" placeholder="Enter Email" name="email">
-                </div><br>
+        <li class="nav-item">
+            <a href="createProject.html" class="nav-link">Submit</a>
+        </li>
 
-                <div class="row">
-                    <label for="password"><b>Password</b></label> <br> 
-                    <input type="password" placeholder="Password" name="password">
-                </div> <br>
+    </ul>
 
-                <input type="submit" value="Login" class="button1">
+    <ul class="navbar-nav ml-auto">
 
-            </form>
-        </div>
-    </main>
+        <li class="nav-item">
+            <a href="register.html" class="nav-link">Sign Up</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="login.html" class="nav-link">Login</a>
+        </li>
+
+    </ul>
+
+</nav>
+<!--Finish here -->
+ 
+<form class="mx-auto pt-5" style="width: 500px;">
+    <h2>Login</h2>
+
+    <div class="form-group">
+        <label for="email"><b>Email Address</b></label>
+        <input class="form-control" type="email" placeholder="Enter email" name="email">
+    </div>
+   
+    <div class="form-group">
+        <label for="email"><b>Password</b></label>
+        <input class="form-control" type="password" placeholder="Password" name="password">
+    </div>
+
+    <button class="btn btn-primary" type="submit">Login</button>
+</form>
+
+
 
                 
-
 <!-- footer section -->
-     <footer>
-            <span>Project Explorer &copy; 2020</span>
-            <span class="spacer">&middot;</span>
-            <a href="#">Edconnect</a>
-     </footer>
+<footer class="container mt-4 py-2 bg-light">
+    <p class="text-right"><span class="text-muted">
+        Project Explorer &copy; 2021
+    </span>
+    <b><span class="align-baseline"> .</span>Edconnect</b>
+
+    </p>
+       
+</footer>
+
 </body>
 </html>

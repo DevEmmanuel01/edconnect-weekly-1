@@ -5,85 +5,150 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Page</title>
     
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>
 <body>
     <!-- Header section-->
-    <header>
-       
-        <!--left navigation-->
-        <div class="left-nav">
-             <div>
-                 <a href="index.html"<h3 class="justh3">Project Explorer</h3> </a>
-             </div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
 
-             <form>
-                 <input type="text" placeholder="Search Projects" />
-                 <input type="submit" value="Search" />
-             </form>
-             <!-- div for links-->
-                <div>
-                    <a href="search.html">Projects</a>
-                    <a href="createProject.html">Submit</a>
-                </div>  <!-- Ending nav for right-nav links-->     
+        <a class="navbar-brand" href="#">Project Explorer</a>
 
-        </div>
-<!--==============================================-->
-        <!-- right navigation -->
-        <div class="right-nav" >
-            <a href="register.html">Sign up</a>
-            <a href="login.html">Login</a>
-        </div>
+        <form class="form-inline my-2 my-lg-0" name="prp">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search projects" value="Search Projects" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
 
-     </header>  <!--Finish here -->
+        <ul class="navbar-nav">
+
+            <li class="nav-item">
+                <a href="search.html" class="nav-link">Project</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="createProject.html" class="nav-link">Submit</a>
+            </li>
+
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+                <a href="register.html" class="nav-link">Sign Up</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="login.html" class="nav-link">Login</a>
+            </li>
+
+        </ul>
+
+    </nav>
+ <!--Finish here -->
+
 
 
         <main>
             <section>
-                <div class="container11">
+               <div class="container pt-5">
+    
                     <h2>Project Gallery</h2>
-                </div>
-
-                <div class="container5">
-                    <form action="">
-                        <input type="text" placeholder="Search project name, authors, abstract, tags" name="searchTerm"  class="searchInput">
-
-                        <label for="authorName">Search by</label>
-                        <select name="authorName" class="searchDropBox">
-                            <option value="Name">Name</option>
-                        <option value="Ade Bolade">Ade Bolade</option>
-                        <option value="Brian Teleo">Brian Teleo</option>
-                        <option value="James Correy">James Correy</option>
-                        </select>
-
-                        <input type="submit" value="Submit" class="button1">
-
-                    </form>
-                </div>
-            </section>
-
-            <section>
-                <div class="Project-Info">
-                    <h3>All Projects</h3><h6>(1 results)</h6>
-                </div>
-
-                    <div class="Project-Info">
-                        <div cLass="project">
-                            <h3 class="title">Project 4</h3>
-                            <p>Author 1, Author2</p>
-                            <p>the desription of the project should be displayed here</p>
-                            <a href="#">#yaml,</a>
-                            <a href="#">#ejs</a>
+    
+                    <form class="pt-2">
+    
+                        <div class="row bg-light pt-3">
+    
+                            <div class="col-md-8">
+    
+                                <div class="form-group">
+    
+                                    <input type="text" placeholder="Search project name, authors, abstract, tags"
+                                        class="form-control form-control-lg" name="searchTerm">
+    
+                                </div>
+    
+                            </div>
+    
+                            <div class="col-md-4">
+    
+                                <div class="row">
+    
+                                    <div class="col-md-8">
+    
+                                        <div class="form-group">
+    
+                                            <div class="input-group">
+    
+                                                <div class="input-group-prepend">
+    
+                                                    <div class="input-group-text">Search by</div>
+                                                </div>
+    
+                                                <select name="authorName" class="form-control form-control-lg">
+    
+                                                    <option value="Name">Name</option>
+                                                    <option value="Ade Bolade">Ade Bolade</option>
+                                                    <option value="Brian Teleo">Brian Teleo</option>
+                                                    <option value="James Correy">James Correy</option>
+                                                    </select>
+    
+                                                </select>
+    
+                                            </div>
+    
+                                        </div>
+    
+                                    </div>
+    
+                                    <div class="col-md-4">
+    
+                                        <button type="submit" class="btn-lg btn-primary">Submit</button>
+    
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+    
                         </div>
-        
-
-                
+    
+                    </form>
+    
                 </div> 
             </section>
-        </main>
 
-        <footer>
-            
-        </footer>
+            <section class="container">
+                <br><br>
+                <h4>All Projects<span class="text-muted">(1 Results)</span></h4>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <h4 class="card-title text-primary">a</h4>
+                                <h4 class="card-title text-primary">dsad</h4>
+                                <h4 class="card-title text-muted">dsa</h4>
+                                <h4 class="card-title text-primary">a</h4>
+                                <a href="#" class="card-link">#ds</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </section>
+        </main>
+   <!-- footer section -->
+   <footer class="container mt-4 py-2 bg-light">
+    <p class="text-right"><span class="text-muted">
+        Project Explorer &copy; 2021
+    </span>
+    <b><span class="align-baseline"> .</span>Edconnect</b>
+
+    </p>
+       
+</footer>
 </body>
 </html>
